@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,600;0,700;1,300&display=swap');
+
+body {
+    color: rgb(5, 67, 133);
+    font-family: 'Open Sans';
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+a {
+  color:rgb(0, 0, 0)
+}
+
+.container {
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: white;
+  color:rgb(5, 67, 133)
+}
+
+.card-container {
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: rgb(5, 67, 133);
+  border-radius: 4px;
+}
+
+.btn-blue {
+  background-color: rgb(5, 67, 133);
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.card {
+  width: 35px;
+  height: 35px;
+  border-radius: 30%;
+  background-color: white;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn-blue:hover {
+    background-color: rgb(64, 113, 186);
+    color: white;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: solid 4px rgb(64, 113, 186);
+  transition: 1s;
+}
+
+img:hover {
+  transform: rotate(360deg) scale(1.5);
+
+}
+
+.list-inline {
+  padding: 0px;
+}
+
+.card i {
+  font-size: 20px;
+  padding: 8px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-container{
+    width: 70%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-container {
+    width: 80%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-container {
+    width: 90%;
+    margin: 0px auto;
+  }
+}
